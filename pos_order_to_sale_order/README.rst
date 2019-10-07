@@ -13,17 +13,8 @@ PoS Order To Sale Order
 .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
-.. |badge3| image:: https://img.shields.io/badge/github-OCA%2Fpos-lightgray.png?logo=github
-    :target: https://github.com/OCA/pos/tree/8.0/pos_order_to_sale_order
-    :alt: OCA/pos
-.. |badge4| image:: https://img.shields.io/badge/weblate-Translate%20me-F47D42.png
-    :target: https://translation.odoo-community.org/projects/pos-8-0/pos-8-0-pos_order_to_sale_order
-    :alt: Translate me on Weblate
-.. |badge5| image:: https://img.shields.io/badge/runbot-Try%20me-875A7B.png
-    :target: https://runbot.odoo-community.org/runbot/184/8.0
-    :alt: Try me on Runbot
 
-|badge1| |badge2| |badge3| |badge4| |badge5| 
+|badge1| |badge2|
 
 This module extends the functionality of point of sale to allow sale orders
 creation from the Point of Sale.
@@ -127,11 +118,13 @@ Authors
 ~~~~~~~
 
 * GRAP
+* Guadaltech
 
 Contributors
 ~~~~~~~~~~~~
 
 * Sylvain LE GAL (https://www.twitter.com/legalsylvain)
+* Guadaltech Soluciones Tecnologicas (https://www.guadaltech.es)
 
 Maintainers
 ~~~~~~~~~~~
@@ -152,8 +145,8 @@ promote its widespread use.
 
 Current `maintainer <https://odoo-community.org/page/maintainer-role>`__:
 
-|maintainer-legalsylvain| 
+|maintainer-legalsylvain|
 
-This module is part of the `OCA/pos <https://github.com/OCA/pos/tree/8.0/pos_order_to_sale_order>`_ project on GitHub.
+This module is part of the `OCA/pos <https://github.com/OCA/pos/tree/12.0>`_ project on GitHub.
 
 You are welcome to contribute. To learn how please visit https://odoo-community.org/page/Contribute.
