@@ -50,5 +50,5 @@ Maintainers
 
 This module is maintained by Guadaltech Soluciones Tecnologicas .
 
-This module is part of the `OCA/pos <https://github.com/guadaltech/pos/tree/12.0>`_ project on GitHub.
+This module is part of the `Guadaltech/pos <https://github.com/guadaltech/pos/tree/12.0>`_ project on GitHub.
 
