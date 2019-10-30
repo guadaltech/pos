@@ -1,0 +1,164 @@
+.pos_put_money_popup {
+    width: 560px !important;
+    height: 500px !important;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 11px;
+    background-color: #F0EEEE;
+}
+.pos_create_put_money_popup{
+    width: 565px !important;
+    height: 580px !important;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 11px;
+    background-color: #F0EEEE;
+}
+.put_money_button{
+    
+    margin-right: 40% !important;
+    
+}
+..pos_put_money_block{
+    margin: 10px;
+
+}
+.pos_put_money_button{
+    text-align: center;
+    width: 184px;
+    padding: 24px;
+    margin: 10px;
+    border: solid 2px rgba(60,60,60,0.1);
+    cursor: pointer;
+}
+.pos_button_float1{
+    float: left;
+}
+.pos_put_money_top_text{
+    font-weight:700;
+    font-size: 14px;
+    color: #929292;
+    text-align: center;
+}
+.pos_put_money_bottom_text{
+    font-weight:700;
+    font-size: 16px;
+    color: #929292;
+    text-align: center;
+}
+.pos_button_float2{
+    float: right;
+}
+
+
+
+.pos_put_money_button:hover{
+    background:#6EC89B;
+    color: white;
+
+}
+.pos_put_money_form_table{
+    margin: 10px auto 0px auto;
+
+}
+.pos_put_money_form_block{
+    width: 256px;
+    margin:11px;
+    /*padding: 5px;*/
+}
+
+.pos_put_money_label{
+    font-size: 14px;
+    color: #404040;
+    float: left;
+    margin-left: 7px;
+}
+.pos_put_money_value{
+    width: 244px !important;
+    font-size: 18px;
+    font-weight:700;
+    padding:5px !important;
+    font-style: italic;
+    min-height: 1px !important;
+    
+}
+.pos_valid_error{
+    color: red;
+    position: fixed;
+    font-size: 13px;
+}
+.valid_error_redeeemption{
+    color: red;
+    position: fixed;
+    font-size: 13px;
+}
+.valid_error_customer{
+    color: red;
+    position: fixed;
+    font-size: 13px;
+}
+
+.pos_put_money_form_block{
+    width: 256px;
+    margin:11px;
+    /*padding: 5px;*/
+}
+
+.pos_form_table{
+    margin: 10px auto 0px auto;
+
+}
+.slected_customer{
+min-height: 0px !important;
+width: 15px  !important;
+float: left ;
+}
+
+.put_money_extrainfo{
+   width:  505px !important;
+   height: 100px !important;
+}
+
+.pos_confurm_put_money_button,.pos_create_put_money_button{
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(60, 60, 60, 0.1);
+    border-radius: 2px;
+    cursor: pointer;
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    width: 110px;
+}
+.pos_create_put_money_button:active{
+    background-color: black;
+    color: white;
+
+}
+.pos_text_error{
+    border-color: red !important;
+    border-style: solid !important;
+}
+
+.pos_put_money_key_label{
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+    margin-left: 10px;
+    font-weight:700;
+    font-size: 18px;
+    color: #404040;
+    font-style: italic;
+   
+}
+.pos_confurm_put_money_popup{
+    height: 200px !important;
+}
+.pos_redeem_put_money_popup{
+    height: 250px !important;
+    margin-top: 100px !important;
+}

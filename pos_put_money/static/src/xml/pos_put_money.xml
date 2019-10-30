@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates id="template" xml:space="preserve">
+
+    <t t-name="CreatePutMoneyPopupWidget">
+        <div class="modal-dialog">
+            <div class="popup pos_create_put_money_popup">
+                <p class="title">Poner Dinero</p>
+                <div class='pos-new-put_money-details'>
+
+                    <table class="pos_put_money_form_table">
+                        <tr>
+                            <td>
+                                <div class="pos_put_money_form_block">
+                                    <label  class="pos_put_money_label">Importe<label style="color:red">*</label></label>
+                                    <input class='pos_put_money_value' id='pos_put_money_value'/>
+                                    <!--div class="pos_valid_error"/-->
+                               </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="pos_put_money_form_block">
+                                    <label  class="pos_put_money_label">Comentario<label style="color:red">*</label></label>
+                                    <input class='pos_put_money_value' id='pos_put_money_comment'/>
+                               </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="pos_put_money_form_block">
+                                    <select class='paymentmethods'>
+                                        <t t-foreach="widget.pos.cashregisters" t-as="cashregister">
+                                            <option class="button paymentmethod" t-att-value="cashregister.journal_id[0]">
+                                                <t t-esc="cashregister.journal_id[1]" />
+                                            </option>
+                                        </t>
+                                    </select>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                </div>
+                <br/>
+                <div class="footer">
+                    <div class="button cancel">
+                        Cancelar
+                    </div>
+                    <div class="pos_create_put_money_button button cancel">
+                        Confirmar
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+
+     <t t-extend="ActionpadWidget">
+		<t t-jquery=".actionpad" t-operation="before">
+            <div style="padding: 8px 16px 0px 11px;">
+                <span class="control-button" id="put_money" style="width: 93%;float: left">
+                    Poner dinero
+                </span>
+            </div>
+		</t>
+	</t>
+
+</templates>
